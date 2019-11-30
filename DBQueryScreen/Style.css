@@ -1,0 +1,305 @@
+﻿
+
+h1 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 200%;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 150%;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 112.5%;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+
+/*Containing Element for Header, Menu and Main*/
+.wrapper{
+    width: 100%;
+    margin: 4% auto;
+    background: #F8E5E5; 
+    padding: 20px;
+    height:900px;
+}
+
+.wrapper:after{
+    display: block;
+    clear: both;
+    content: "";
+    height: 0;
+    overflow: hidden;
+}
+
+/*Header has three elements floated within it, to line up logo and title*/
+.header {
+    width: 100%;
+    height: 15%;
+    background-color: #fa255e;
+}
+
+.header:after {
+        display: block;
+        clear: both;
+        content: "";
+        height: 0;
+        overflow: hidden;
+ }
+
+.header1{
+    float:left;
+    width: 22%;
+    text-align: left;
+}
+
+.header2 {
+    float: left;
+    width: 52%;
+    text-align:center;
+}
+
+.header3 {
+    float: left;
+    width: 22%;
+    text-align: right;
+}
+
+.headertext {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #c39EA0;
+    font-size: 300%;
+    padding: 1%;
+    text-align: center;
+}
+
+.titletext {
+    color: #c39EA0;
+    padding: 2%;
+    text-align: left;
+}
+
+.linkbtn {
+    color: #c39EA0;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 100%;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 10%;
+    padding-right: 1.041%;
+}
+
+/*Styling for menu. a#link hits individual items*/
+
+.menu {
+    float: left;
+    width: 20%;
+    background-color: #fa255e;
+    margin-top: 1%;
+    height: 84%;
+}
+
+.menutext {
+    padding: 10%;  
+}
+
+.menutext a:link{
+    color:#c39EA0;
+    padding:10%;
+    font-weight: bold;
+}
+
+
+.main {
+    float: left;
+    width: 80%;
+}
+
+/*Styling for tiles on default page*/
+
+.defaultWrapperTop{
+    width:100%;
+}
+
+.defaultWrapperTop:after {
+    display: block;
+    clear: both;
+    content: "";
+    height: 0;
+    overflow: hidden;
+}
+
+.Btn {
+    float: left;
+    width: 50%;
+    color: #c39EA0;
+    text-align: center;
+}
+
+
+.defaultWrapperBottom {
+    width:100%;
+}
+
+    .defaultWrapperBottom:after {
+        display: block;
+        clear: both;
+        content: "";
+        height: 0;
+        overflow: hidden;
+    }
+
+/*Styling for Input Forms*/
+
+.inputlabel {
+    float: left;
+    width: 15%;
+    text-align: left;
+    padding-left: 2%;
+    color: #c39EA0;
+}
+
+.inputtextbox {
+    width: 25%;
+    padding: 0.5%;
+}
+
+
+
+.offsetlabel {
+    width: 20%;
+    text-align: right;
+    padding-left: 2%;
+    color: #c39EA0;
+}
+
+.offsettextbox {
+    width: 10%;
+    padding: 0.5%;
+}
+
+.layer2inputlabel {
+    float: left;
+    width: 30%;
+    text-align: left;
+    padding-left: 2%;
+    color: #c39EA0;
+}
+
+
+
+
+/*Styling for Displaying Data*/
+
+.displaytitlelabel {
+    float: left;
+    width: 15%;
+    text-align: left;
+    padding-left: 2%;
+    color: #c39EA0;
+}
+
+.displaydatalabel {
+    width: 25%;
+    padding: 0.5%;
+    color: #c39EA0;
+}
+
+/*Styling for Input Training Data Page*/
+
+.TrainingDataWrapper {
+    width: 100%;
+}
+
+    .TrainingDataWrapper:after {
+        display: block;
+        clear: both;
+        content: "";
+        height: 0;
+        overflow: hidden;
+    }
+
+
+.rep {
+    color: #c39EA0;
+    float: left;
+    width: 50%;
+    padding-left: 2%;
+}
+
+
+td {
+    width: 5%;
+    padding-left: 2%;
+    padding-right: 2%
+}
+
+.IntervalForm {
+    float: left;
+    width: 25%;
+    padding-left: 2%;
+}
+
+
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+    .wrapper {
+        height: auto;
+    }
+
+    .header1 {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header2 {
+        display:none;
+        float: none;
+    }
+
+    .header3 {
+        display: none;
+        float: none;
+    }
+
+    .headertext {
+        font-size: 200%;
+    }
+
+    .linkbtn{
+        font-weight: bolder;
+        text-align: center;
+        display: block;
+        padding: 0%; 
+    }
+
+    .menu {
+        float: none;
+        width: 100%;
+    }
+
+    .main {
+        float: none;
+        width: 100%;
+    }
+
+
+    .Btn {
+        float: left;
+        width: 100%;
+        padding: 1%;
+    }
+}

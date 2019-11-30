@@ -1,0 +1,42 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Style.css" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+    <div class="header">
+    <div class="header1"><asp:Image runat="server" ImageUrl="~/RowTired.png" />
+    <asp:LinkButton ID="login" runat="server" Text="Login" class="linkbtn" OnClick="loginbtn"/>
+    <asp:LinkButton ID="LinkButton1" runat="server" Text="Help" CssClass="linkbtn" />
+    </div>
+     <div class="headertext header2">Tired Mum Goes Rowing</div>
+     <div class="header3"><asp:Image runat="server" ImageUrl="~/RowTired.png" />
+     <asp:LinkButton ID="Welcome" runat="server" Text="Welcome" class="linkbtn" OnClick="loginbtn"/>
+     </div>
+    </div>
+    <div class="menu">
+        <h2><asp:Menu ID="menu" CssClass="menutext" runat="server">
+            <Items>
+            <asp:menuitem text="View Edit Profile"></asp:menuitem>
+            <asp:menuitem text="Log Training"></asp:menuitem>
+            <asp:menuitem text="View Training Data"></asp:menuitem>
+            <asp:menuitem text="Forums"></asp:menuitem>
+                </Items>
+        </asp:Menu></h2>
+    </div>
+    <div class="main">
+     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">     
+     </asp:ContentPlaceHolder>
+    </div></div>
+    </form>
+</body>
+</html>

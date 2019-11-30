@@ -1,0 +1,149 @@
+﻿body {
+}
+html, body {
+    font-family: sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    height: 939px;
+    width: 100%;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 200%;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 150%;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 112.5%;
+}
+
+/* styling for title bar*/
+
+
+.heading {
+    height: 15%;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.titlebar {
+    background-color: #ff1493;
+    height: 20%;
+    display: table;
+    width: 100%;
+}
+
+.titlebarhold {
+    color: #ff1493;
+}
+
+
+/* styling for content blocks*/
+
+.parent {
+    height: 909px;
+    width: 100%;
+}
+
+.tables {
+    display: inline-block;
+    height: 30%;
+    width: 20%;
+    border-color: #ff1493;
+    border-style: solid;
+    padding: 0.5%;
+    margin-bottom: 0.5%
+}
+
+.results {
+    display: inline-block;
+    height: 30%;
+    width: 20%;
+    border-color: #ff1493;
+    border-style: solid;
+    padding: 0.5%;
+    margin-bottom: 0.5%
+}
+
+.sorting {
+    display: inline-block;
+    height: 30%;
+    width: 20%;
+    border-color: #ff1493;
+    border-style: solid;
+    padding: 0.5%;
+    margin-bottom: 0.5%
+}
+
+
+.query {
+    display: inline-block;
+    height: 30%;
+    width: 20%;
+    border-color: #ff1493;
+    border-style: solid;
+    padding: 0.5%;
+    margin-bottom: 0.5%
+}
+
+.conditions {
+    display: inline-block;
+    height: 30%;
+    width: 41.75%;
+    border-color: #ff1493;
+    border-style: solid;
+    padding: 0.5%;
+    margin-top: 0.5%
+}
+
+.output {
+    display: inline-block;
+    height: 30%;
+    width: 41.75%;
+    border-color: #ff1493;
+    border-style: solid;
+    padding: 0.5%;
+    margin-top: 0.5%
+}
+
+@media only screen and (max-width: 768px) {
+    .parent {
+        width: 100%;
+    }
+
+    .tables {
+        width: 95%;
+    }
+
+    .results {
+        width: 95%;
+    }
+
+    .sorting {
+        width: 95%;
+    }
+
+    .query {
+        width: 95%;
+    }
+
+    .conditions {
+        width: 95%;
+    }
+
+    .output {
+        width: 95%;
+    }
+}

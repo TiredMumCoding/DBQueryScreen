@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DBQueryScreen", "DBQueryScreen\", "{C0CA3BE5-66EB-4EA4-8C92-140A33A7161A}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{e8a3e68c-b34c-4704-afec-46adf4a7cadb}|HelperLibrary.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51969"
 		Debug.AspNetCompiler.PhysicalPath = "DBQueryScreen\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51969\"
@@ -25,13 +26,22 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DBQueryScreen", "DBQueryScr
 		DefaultWebSiteLanguage = "Visual Basic"
 	EndProjectSection
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HelperLibrary", "HelperLibrary\HelperLibrary.vbproj", "{E8A3E68C-B34C-4704-AFEC-46ADF4A7CADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C0CA3BE5-66EB-4EA4-8C92-140A33A7161A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C0CA3BE5-66EB-4EA4-8C92-140A33A7161A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CA3BE5-66EB-4EA4-8C92-140A33A7161A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CA3BE5-66EB-4EA4-8C92-140A33A7161A}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E8A3E68C-B34C-4704-AFEC-46ADF4A7CADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A3E68C-B34C-4704-AFEC-46ADF4A7CADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A3E68C-B34C-4704-AFEC-46ADF4A7CADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A3E68C-B34C-4704-AFEC-46ADF4A7CADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
